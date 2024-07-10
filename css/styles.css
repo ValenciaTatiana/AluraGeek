@@ -359,3 +359,15 @@ textarea:focus {
         font-size: 2rem;
     }
 }
+.footer-contenedor {
+    padding: 2rem;
+    text-align: center;
+}
+.footer-fecha {
+    margin-top: 0.5rem;
+    color: #464646;
+}
+.footer-titulo {
+    margin-bottom: 0.5rem;
+    color: #464646;
+}

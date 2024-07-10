@@ -371,3 +371,52 @@ textarea:focus {
     margin-bottom: 0.5rem;
     color: #464646;
 }
+
+/* Login */
+.iniciar-sesion-contenedor {
+    display: flex;
+    background-color: #F5F5F5;
+    padding: 10rem 2rem;
+    flex-direction: column;
+    align-items: center;
+    color: #464646;
+}
+.iniciar-sesion-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iniciar-sesion-formulario input {
+    margin-bottom: 1rem;
+    border: none;
+    padding: 1.5rem;
+    width: 33rem;
+}
+.iniciar-sesion-formulario input[type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    background-color: #2A7AE4;
+    color: white;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .iniciar-sesion-titulo {
+        font-size: 5rem;
+    }
+    .iniciar-sesion-formulario input {
+        padding: 2rem;
+        width: 45rem;
+    }
+}
+@media (min-width: 1440px) {
+    .iniciar-sesion-titulo {
+        font-size: 7rem;
+    }
+    .iniciar-sesion-formulario input {
+        padding: 2.5rem;
+        width: 55rem;
+    }
+}

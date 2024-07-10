@@ -179,3 +179,72 @@ button img {
         padding: 3rem;
     }
 }
+.productos-contenedor {
+    padding: 2rem;
+}
+.productos-contenedor img {
+    margin-top: 1rem;
+    width: 16rem;
+    height: 17rem;
+}
+.productos-contenedor-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productos-titulo,
+.producto-nombre,
+.producto-precio {
+    color: #464646
+}
+.productos-titulo {
+    font-size: 3rem;
+}
+.producto-nombre,
+.producto-precio {
+    margin: 1rem 0;
+}
+.producto-precio {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.productos-contenedor-titulo a,
+.productos a {
+    text-decoration: none;
+    color: #2A7AE4;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+}
+.productos-consolas,
+.productos-diversos {
+    margin-top: 4rem;
+}
+@media (min-width: 768px) {
+    .productos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.8rem;
+    }
+    .productos-contenedor img {
+        width: 17rem;
+        height: 18rem;
+    }
+}
+@media (min-width: 1440px) {
+    .productos-contenedor {
+        padding: 3rem 10rem;
+    }
+    .productos {
+        display: flex;
+        gap: 1.5rem;
+    }
+    .productos-contenedor img {
+        width: 19rem;
+        height: 20rem;
+    }
+}

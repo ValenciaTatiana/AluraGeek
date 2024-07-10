@@ -101,3 +101,81 @@ button img {
         font-size: 2rem;
     }
 }
+.baner-contenedor {
+    position: relative;
+    width: 100%;
+    height: 20rem;
+    max-width: 100%;
+}
+.baner-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.baner-contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.baner-titulo {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+.baner-subtitulo {
+    font-size: 1.25rem;
+    margin: 0;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.baner-redes img {
+    width: 2.5rem;
+    height: auto;
+    padding-top: 1rem;
+}
+@media (min-width: 768px) {
+    .baner-contenedor {
+        height: 25rem;
+    }
+    .baner-titulo {
+        font-size: 4.5rem;
+    }
+    .baner-subtitulo {
+        font-size: 1.8rem;
+    }
+    .baner-redes img {
+        width: 3.5rem;
+        height: auto;
+        padding-bottom: 1rem;
+    }
+}
+@media (min-width: 1440px) {
+    .baner-contenedor {
+        height: 40rem;
+    }
+    .baner-titulo {
+        font-size: 6.5rem;
+    }
+    .baner-subtitulo {
+        font-size: 2.5rem;
+    }
+    .baner-redes img {
+        width: 4.5rem;
+        height: auto;
+        padding-bottom: 1rem;
+    }
+    .baner-contenido {
+        padding: 3rem;
+    }
+}

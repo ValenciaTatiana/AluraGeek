@@ -66,5 +66,9 @@ AluraGeek es una tienda en línea dedicada a los amantes de la tecnología y la 
 #
 ![respon login](https://github.com/user-attachments/assets/8121a70c-5740-4dc0-8b44-8e327a16e155)
 
-# Insignia🏅
-Insignia entregado por Alura CHALLENGES - ONE, por la finalización del *PROYECTO: ALURAGEEK*.
+# Insignia y Certificado🏅
+Insignia y certificado entregados por Alura CHALLENGES - ONE, por la finalización del *PROYECTO: ALURAGEEK*.
+![316602191-95c68e4e-e372-4a17-b28c-3579a982bfbb](https://github.com/user-attachments/assets/f51bc7ef-608a-4733-9db9-8d3508829aab)
+#
+![CERTIFICADO](https://github.com/user-attachments/assets/10a1404c-eb0d-4910-84e5-dc5bb80ca203)
+
